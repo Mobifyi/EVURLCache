@@ -7,7 +7,7 @@
 //
 
 import Foundation
-//import ReachabilitySwift
+import ReachabilitySwift
 
 #if os(iOS)
     import MobileCoreServices
