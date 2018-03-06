@@ -93,6 +93,6 @@ s.osx.frameworks = "Foundation", "CoreServices"
 s.requires_arc = true
 
 # In cocoapods version 1 ReachabilitySwift does not work as a dependency. For now the file is included in EVURLCache
-# s.dependency "ReachabilitySwift"
+ s.dependency "ReachabilitySwift"
 
 end
