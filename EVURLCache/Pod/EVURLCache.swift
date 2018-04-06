@@ -77,7 +77,7 @@ open class EVURLCache: URLCache {
             dateFormatter.dateFormat = "MM/dd/yyyy HH:mm:ss:SSS"
             let process = ProcessInfo.processInfo
             let threadId = "." //NSThread.currentThread().threadDictionary
-//            print("\(dateFormatter.string(from: Date())) \(process.processName))[\(process.processIdentifier):\(threadId)] \((filename as NSString).lastPathComponent)(\(line)) \(funcname):\r\t\(object)\n")
+            print("\(dateFormatter.string(from: Date())) \(process.processName))[\(process.processIdentifier):\(threadId)] \((filename as NSString).lastPathComponent)(\(line)) \(funcname):\r\t\(object)\n")
         }
     }
     
